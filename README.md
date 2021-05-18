@@ -1,3 +1,5 @@
+This is a Linux kernel with [mptcp v0.95](https://github.com/multipath-tcp/mptcp.git). The only change made for CellBricks is line 1070 of [mptcp_fullmesh.c](../net/mptcp/mptcp_fullmesh.c), which is to get rid of the 500 ms wait period
+
 Linux kernel
 ============
 
